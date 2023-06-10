@@ -1,5 +1,5 @@
 # cse5280_assignment_robotarmforwardkinematics-Akuskea
-Use linear-algebra libraries, and 3-D graphics libraries, you must implement your own forward-kinematics function.
+I improved the realistic side of the projects. Before, the arm robot looked like a stick [(youtube link)](https://youtu.be/9LMBftHGDlE ) and not so much like a robot arm. I started creating the Project on Jyputer Notebook, and later I converted it into a Python script. To create this project, I used the Vedo libraries, Numpy, and the function forward kinematic. The robot arm is made up of 4 parts and 5 joints, so it has 4 angles that can be manipulated to move the arm. I created a function getTransformation to calculate the local coordinate matrix, which contains the rotation and translation matrices. In the Kinematic function, I call the getTransformation function to find the local coordinate matrices of the robot arm. After founding them, the calculation of the local to global coordinate matrices is carried out. In these matrices, we can find the coordinates of the joints of the arm robot. Then I used the Vedo library to draw the robot's arm. I also created a function loop that increments the angle by pi/20. At the end of my project, I added a video option where you could record the arm in motion.
 
-# Youtube Video: 
-https://youtu.be/9LMBftHGDlE 
+# Youtube Video of the arm robot:
+[https://youtu.be/9LMBftHGDlE ](https://youtu.be/Ez1UVE9CWVs)
